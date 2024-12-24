@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/noel1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Merry Christmas</title>
+</head>
+<body>
+    <center>
+        <audio id="background-music" autoplay loop>
+            <source src="image/music.mp3" type="audio/mpeg">
+        </audio>
+        
+        <script>
+            document.body.addEventListener('click', function() {
+                var music = document.getElementById('background-music');
+                music.play();
+            });
+        </script>        
+    </center>
+
+    <div class="container">
+        <div class="bgr-container">
+            <div class="box-bgr">
+                <div class="moon">
+                    <img src="image/moon.png" alt="Moon">
+                </div>
+                <div class="christmas-tree">
+                    <img src="image/christmas-tree.png" alt="Christmas Tree">
+                </div>
+                <div class="box-text-noel">
+                    <div class="text-noel">
+                        <img src="image/text.png" alt="Text">
+                    </div>
+                    <span></span>
+                </div>
+                <div class="house">
+                    <img src="image/house.png" alt="House">
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="box-santa">
+                <div class="santa-container">
+                    <div class="santa1">
+                        <div class="image-santa">
+                            <img src="image/santa.png" alt="Santa">
+                        </div>
+                        <div class="image-santa-hand">
+                            <img src="image/santa-hand.png" alt="Santa Hand">
+                        </div>
+                    </div>
+                    <div class="box-reindeer">
+                        <div class="reindeer">
+                            <img src="https://www.animatedimages.org/data/media/359/animated-santa-claus-image-0420.gif" alt="Reindeer">
+                        </div>
+                    </div>
+                    <div class="box-noel-gif">
+                        <div class="noel-gif1">
+                            <img src="https://img.pikbest.com/png-images/20191113/christmas-santa-claus-pile-of-gifts-drawing-illustration-element-gif_2515384.png!bw700" alt="Noel Gift 1">
+                        </div>
+                        <div class="noel-gift2">
+                            <img src="https://i.pinimg.com/originals/08/a6/a4/08a6a4fb28fb5048fe606937f376017f.gif" alt="Noel Gift 2">
+                        </div>
+                    </div>
+                    <div class="box-gift">
+                        <div class="gift-bottom"></div>
+                        <div class="gift-top"></div>
+                        <div class="box-fastener">
+                            <div class="fastener1"></div>
+                            <div class="fastener2"></div>
+                        </div>
+                        <div class="content"></div>
+                    </div>
+                    <div class="box-content">
+                        <i class="fa-solid fa-xmark"></i>
+                        <div class="content1">
+                            <div class="content-text">
+                                <div class="text1">
+                                    <p id="text1">Happy Noel!!!</p>
+                                </div>
+                                <div class="text2">
+                                    <h2 id="text3">Chúc em một mùa Giáng sinh thật an lành và tràn đầy hạnh phúc! Mong rằng mùa lễ hội này sẽ mang đến cho em những khoảnh khắc đáng nhớ, ngập tràn yêu thương bên gia đình và bạn bè. Hãy để ánh đèn lung linh và tiếng nhạc Giáng sinh làm bừng sáng tâm hồn em, xua tan đi những lo toan và mệt mỏi. Cầu chúc em luôn mạnh khỏe, xinh đẹp và nhận được thật nhiều niềm vui trong mùa Giáng sinh ấm áp này. Hãy tận hưởng trọn vẹn từng phút giây ý nghĩa và sẵn sàng chào đón một năm mới đầy thành công và hạnh phúc nhé! Merry Christmas! 🎄✨❤️</h2>
+                                </div>
+                            </div>
+                            <div class="image-decorate">
+                                <div class="pineTree">
+                                    <img src="image/pineTree.png" alt="Pine Tree">
+                                </div>
+                                <div class="decorate">
+                                    <img src="image/decorate.png" alt="Decorate">
+                                </div>
+                                <div class="bell">
+                                    <img src="image/bell.png" alt="Bell">
+                                    <img src="image/bell.png" alt="Bell">
+                                </div>
+                                <div class="bell1">
+                                    <img src="image/bell1.png" alt="Bell">
+                                    <img src="image/bell1.png" alt="Bell">
+                                    <img src="image/bell1.png" alt="Bell">
+                                    <img src="image/bell1.png" alt="Bell">
+                                </div>
+                                <div class="snowman">
+                                    <img src="image/snowman.png" alt="Snowman">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-santa-content">
+                            <img src="image/santa1.png" alt="Santa">
+                        </div>
+                    </div>
+                    <div class="shadow-boxGift"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="box-snow">
+            <div class="snow">
+                <!-- Add your snowflakes with variable speed using CSS variables like --i -->
+                <span style="--i:10;"></span>
+                <span style="--i:35;"></span>
+                <span style="--i:37;"></span>
+                <span style="--i:47;"></span>
+                <span style="--i:11;"></span>
+                <!-- Add more snowflake elements here -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
